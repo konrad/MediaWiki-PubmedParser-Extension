@@ -295,6 +295,10 @@
 		 *  as it is a PHP keyword.
 		 */
 		function abstr() {
+		        // Some Pubmed entries are missing an abtract
+		        if (is_array($this->medline->PubmedArticle->MedlineCitation->Article->Abstract->AbstractText) == FALSE){
+			   return "";
+                        }
 			foreach ( $this->medline->PubmedArticle->MedlineCitation->Article->Abstract->AbstractText as $p ) {
 					// Abstract paragraphs may be preceded by a label.
 					// The label is given as an XML parameter, e.g.:
