@@ -1,0 +1,14 @@
+PubmedParser Changelog
+======================
+
+0.2.3
+	New:      'abstract' parameter.
+	
+0.2.2
+	New:			'journalanop' parameter to retrieve the abbreviated journal
+	          name without periods.
+						
+0.2.1
+	New:			'reload' option to force updating the data from Pubmed (if
+						using the cache option).
+	Improved:	A link to Pubmed is provided if a 'no data' error occurs.

@@ -1,0 +1,14 @@
+PubmedParser Changelog
+======================
+
+0.2.3
+  Neu:           'abstract'-Parameter.
+0.2.2
+  Neu:           'journalanop'-Parameter: Gibt die Abkürzung des Zeit-
+                 schriftennamens ohne Punkte zurück.
+		 
+0.2.1
+  Neu:           Option 'reload', mit der ein erneutes Abrufen der Artikelinformationen
+                  von Pubmed erzwungen werden kann (falls ein Cache verwendet wird).
+  Verbessert:    Wenn der Fehler "keine Daten" auftritt, wird ein Link zu Pubmed mit
+                 mit angezeigt.
